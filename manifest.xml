@@ -1,9 +1,6 @@
 <?xml version="1.0"?>
 <app name="TestAntApp" namespace="PHPAnt\Apps">
-  <file>
-    <name>/home/michael/php-ant/includes/apps/ant-app-test-app/public.key</name>
-    <hash>884a490cb9e673015ac48a7c3f36b1d27279ee73</hash>
-  </file>
+  
   <file>
     <name>/home/michael/php-ant/includes/apps/ant-app-test-app/LICENSE</name>
     <hash>4c80553b587d05130abb4998a445245c97e2dce8</hash>
@@ -54,4 +51,4 @@
     <priority>50</priority>
     <signature>9cbfedb060559bbc915c806d51a2ed25eae211e4</signature>
   </action>
-</app>
+<file><name>/home/michael/php-ant/includes/apps/ant-app-test-app/public.key</name><hash>110c8a5b4eec82c59f96972242a4a40ee350a117</hash></file></app>
