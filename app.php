@@ -43,7 +43,7 @@ class TestAntApp extends \PHPAnt\Core\AntApp implements \PHPAnt\Core\AppInterfac
      **/
 
     function __construct() {
-        $this->AppName = 'Test Ant App';
+        $this->appName = 'Test Ant App';
         $this->canReload = false;
         $this->path = __DIR__;
     }

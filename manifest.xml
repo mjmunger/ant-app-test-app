@@ -1,16 +1,28 @@
 <?xml version="1.0"?>
 <app name="TestAntApp" namespace="PHPAnt\Apps">
   <file>
-    <name>/home/timing/www/includes/apps/TestApp/tests</name>
+    <name>/home/michael/php-ant/includes/apps/ant-app-test-app/public.key</name>
+    <hash>884a490cb9e673015ac48a7c3f36b1d27279ee73</hash>
+  </file>
+  <file>
+    <name>/home/michael/php-ant/includes/apps/ant-app-test-app/LICENSE</name>
+    <hash>4c80553b587d05130abb4998a445245c97e2dce8</hash>
+  </file>
+  <file>
+    <name>/home/michael/php-ant/includes/apps/ant-app-test-app/app.php</name>
+    <hash>5976d4877777525b839a23dcc170bfd1c364c0d6</hash>
+  </file>
+  <file>
+    <name>/home/michael/php-ant/includes/apps/ant-app-test-app/README.md</name>
+    <hash>6c358c96da2d9ee585d4e47d6b5e5570eceae3d1</hash>
+  </file>
+  <file>
+    <name>/home/michael/php-ant/includes/apps/ant-app-test-app/tests</name>
     <hash>da39a3ee5e6b4b0d3255bfef95601890afd80709</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/TestApp/app.php</name>
-    <hash>7121be9364b80d58384ea7a59d2ec26db078990e</hash>
-  </file>
-  <file>
-    <name>/home/timing/www/includes/apps/TestApp/public.key</name>
-    <hash>801656e08c261a417314299d8a1603e899f4bfe5</hash>
+    <name>/home/michael/php-ant/includes/apps/ant-app-test-app/.git</name>
+    <hash>da39a3ee5e6b4b0d3255bfef95601890afd80709</hash>
   </file>
   <action>
     <hook>cli-load-grammar</hook>
