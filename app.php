@@ -64,8 +64,9 @@ class TestAntApp extends \PHPAnt\Core\AntApp implements \PHPAnt\Core\AppInterfac
 
         $grammar['test'] = [ 'grammar' => NULL
                            ];
-        
-        return $grammar;
+        $return['success'] = true;
+        $return['grammar'] = $grammar;
+        return $return;
     }
     
     /**

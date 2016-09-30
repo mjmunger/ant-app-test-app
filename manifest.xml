@@ -7,7 +7,7 @@
   </file>
   <file>
     <name>/home/michael/php-ant/includes/apps/ant-app-test-app/app.php</name>
-    <hash>5976d4877777525b839a23dcc170bfd1c364c0d6</hash>
+    <hash>d1e9314494afef2b1dc20108beb7a7c8d84ce0af</hash>
   </file>
   <file>
     <name>/home/michael/php-ant/includes/apps/ant-app-test-app/README.md</name>
@@ -51,4 +51,4 @@
     <priority>50</priority>
     <signature>9cbfedb060559bbc915c806d51a2ed25eae211e4</signature>
   </action>
-<file><name>/home/michael/php-ant/includes/apps/ant-app-test-app/public.key</name><hash>110c8a5b4eec82c59f96972242a4a40ee350a117</hash></file></app>
+<file><name>/home/michael/php-ant/includes/apps/ant-app-test-app/public.key</name><hash>64599044f1798174109ec1b78312d42f6420159f</hash></file></app>
