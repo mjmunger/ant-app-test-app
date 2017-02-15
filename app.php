@@ -12,9 +12,9 @@ namespace PHPAnt\Apps;
  * App Action: history-uri-test   -> historyURITest  @ 50
  * App Action: testasdf-uri-test  -> testasdfURITest @ 50
  *
- * App URI: "#^\/uploader\/.*#"   -> uploader-uri-test
- * App URI: "#^\/history\/.*#"    -> history-uri-test
- * App URI: "#^\/test\/asdf\/.*#" -> testasdf-uri-test
+ * App URI: "#^\/uploader\/.*#"   -> uploader-uri-test @ 50
+ * App URI: "#^\/history\/.*#"    -> history-uri-test  @ 50
+ * App URI: "#^\/test\/asdf\/.*#" -> testasdf-uri-test @ 50
  */
 
  /**
