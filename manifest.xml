@@ -1,11 +1,19 @@
 <?xml version="1.0"?>
 <app name="TestAntApp" namespace="PHPAnt\Apps">
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/tests</name>
+    <name>/home/timing/www/includes/apps/ant-app-test-app/.git</name>
     <hash>da39a3ee5e6b4b0d3255bfef95601890afd80709</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/.git</name>
+    <name>/home/timing/www/includes/apps/ant-app-test-app/LICENSE</name>
+    <hash>4c80553b587d05130abb4998a445245c97e2dce8</hash>
+  </file>
+  <file>
+    <name>/home/timing/www/includes/apps/ant-app-test-app/public.key</name>
+    <hash>c18a7e5ddb3691461555dd16b37b56a3051069c3</hash>
+  </file>
+  <file>
+    <name>/home/timing/www/includes/apps/ant-app-test-app/tests</name>
     <hash>da39a3ee5e6b4b0d3255bfef95601890afd80709</hash>
   </file>
   <file>
@@ -13,15 +21,37 @@
     <hash>6c358c96da2d9ee585d4e47d6b5e5570eceae3d1</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/public.key</name>
-    <hash>64599044f1798174109ec1b78312d42f6420159f</hash>
-  </file>
-  <file>
     <name>/home/timing/www/includes/apps/ant-app-test-app/app.php</name>
     <hash>d1e9314494afef2b1dc20108beb7a7c8d84ce0af</hash>
   </file>
-  <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/LICENSE</name>
-    <hash>4c80553b587d05130abb4998a445245c97e2dce8</hash>
-  </file>
+  <action>
+    <hook>cli-load-grammar</hook>
+    <function>loadTestAntApp</function>
+    <priority>50</priority>
+    <signature>f730f7a6239289d0e36c2bc6f837221eafd063b6</signature>
+  </action>
+  <action>
+    <hook>app-hook-test</hook>
+    <function>doAppHookTest</function>
+    <priority>50</priority>
+    <signature>32960e3b5c5281fb302630125b79394c62b94724</signature>
+  </action>
+  <action>
+    <hook>uploader-uri-test</hook>
+    <function>uploaderURITest</function>
+    <priority>50</priority>
+    <signature>694e7a32c643f417b175e59e4ee86ca2d3b28541</signature>
+  </action>
+  <action>
+    <hook>history-uri-test</hook>
+    <function>historyURITest</function>
+    <priority>50</priority>
+    <signature>d6da3df8535d8540a7d2705d7e19bce9472625cc</signature>
+  </action>
+  <action>
+    <hook>testasdf-uri-test</hook>
+    <function>testasdfURITest</function>
+    <priority>50</priority>
+    <signature>9cbfedb060559bbc915c806d51a2ed25eae211e4</signature>
+  </action>
 </app>
