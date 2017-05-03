@@ -46,6 +46,31 @@ class TestAntApp extends \PHPAnt\Core\AntApp implements \PHPAnt\Core\AppInterfac
         $this->appName = 'Test Ant App';
         $this->canReload = false;
         $this->path = __DIR__;
+
+        //Enable ACL
+        $this->hasACL = true;
+    }
+
+    /**
+     * Override default getACL() to allow usage of this app.
+     * */
+
+    function getACLGroups() {
+        $ACL =[];
+
+        $ACL['CLI'] = [ 'name'  => "CLI Commands"
+                      , 'group' => ['cli-load-grammar']
+                      ];
+
+        $ACL['tests'] = [ 'name'  => "App Test Events"
+                        , 'group' => [ 'app-hook-test'    
+                                     , 'uploader-uri-test'
+                                     , 'history-uri-test' 
+                                     , 'testasdf-uri-test'
+                                     ]
+                        ];
+
+        return $ACL;
     }
 
     /**
