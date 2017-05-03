@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <app name="TestAntApp" namespace="PHPAnt\Apps">
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/.git</name>
+    <name>/home/bugzy/www/includes/apps/ant-app-test-app/tests</name>
     <hash>da39a3ee5e6b4b0d3255bfef95601890afd80709</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/LICENSE</name>
-    <hash>4c80553b587d05130abb4998a445245c97e2dce8</hash>
-  </file>
-  <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/public.key</name>
-    <hash>c18a7e5ddb3691461555dd16b37b56a3051069c3</hash>
-  </file>
-  <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/tests</name>
+    <name>/home/bugzy/www/includes/apps/ant-app-test-app/.git</name>
     <hash>da39a3ee5e6b4b0d3255bfef95601890afd80709</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/README.md</name>
+    <name>/home/bugzy/www/includes/apps/ant-app-test-app/README.md</name>
     <hash>6c358c96da2d9ee585d4e47d6b5e5570eceae3d1</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/app.php</name>
-    <hash>d1e9314494afef2b1dc20108beb7a7c8d84ce0af</hash>
+    <name>/home/bugzy/www/includes/apps/ant-app-test-app/public.key</name>
+    <hash>1acc0936ff6d4c2ca19575ffd4ad43b8fb510cb2</hash>
+  </file>
+  <file>
+    <name>/home/bugzy/www/includes/apps/ant-app-test-app/app.php</name>
+    <hash>f89dac68ad4fca0979b7a18b514e67f3163e7dbc</hash>
+  </file>
+  <file>
+    <name>/home/bugzy/www/includes/apps/ant-app-test-app/LICENSE</name>
+    <hash>4c80553b587d05130abb4998a445245c97e2dce8</hash>
   </file>
   <action>
     <hook>cli-load-grammar</hook>
