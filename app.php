@@ -51,6 +51,20 @@ class TestAntApp extends \PHPAnt\Core\AntApp implements \PHPAnt\Core\AppInterfac
         $this->hasACL = true;
     }
 
+    function getMenuItems() {
+        $Menu = [ 'Foo'   => [ 'Bar' => '/path/to/bar'
+                             , 'Baz' => '/path/to/baz'
+                             ]
+                , 'Admin' => [ 'Special Menu' => '/path/to/special/menu'
+                             , 'Users'        => [ 'Add User'    => '/path/to/add/user'
+                                                 , 'Remove User' => '/path/to/remove/user'
+                                                 ]
+                             ]
+                ];
+
+        return $Menu;
+    }
+
     /**
      * Override default getACL() to allow usage of this app.
      * */
