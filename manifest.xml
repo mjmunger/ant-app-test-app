@@ -10,7 +10,7 @@
   </file>
   <file>
     <name>/home/timing/www/includes/apps/ant-app-test-app/public.key</name>
-    <hash>c108648f0d67d5f8c2ea41bc551c2413f0b85c4c</hash>
+    <hash>b1b5b50708b51a66d39e8e9a0f39c280bfdc4341</hash>
   </file>
   <file>
     <name>/home/timing/www/includes/apps/ant-app-test-app/tests</name>
@@ -24,4 +24,34 @@
     <name>/home/timing/www/includes/apps/ant-app-test-app/app.php</name>
     <hash>23c23fa1b530750adec60edc64268278bc665194</hash>
   </file>
+  <action>
+    <hook>cli-load-grammar</hook>
+    <function>loadTestAntApp</function>
+    <priority>50</priority>
+    <signature>f730f7a6239289d0e36c2bc6f837221eafd063b6</signature>
+  </action>
+  <action>
+    <hook>app-hook-test</hook>
+    <function>doAppHookTest</function>
+    <priority>50</priority>
+    <signature>32960e3b5c5281fb302630125b79394c62b94724</signature>
+  </action>
+  <action>
+    <hook>uploader-uri-test</hook>
+    <function>uploaderURITest</function>
+    <priority>50</priority>
+    <signature>694e7a32c643f417b175e59e4ee86ca2d3b28541</signature>
+  </action>
+  <action>
+    <hook>history-uri-test</hook>
+    <function>historyURITest</function>
+    <priority>50</priority>
+    <signature>d6da3df8535d8540a7d2705d7e19bce9472625cc</signature>
+  </action>
+  <action>
+    <hook>testasdf-uri-test</hook>
+    <function>testasdfURITest</function>
+    <priority>50</priority>
+    <signature>9cbfedb060559bbc915c806d51a2ed25eae211e4</signature>
+  </action>
 </app>
