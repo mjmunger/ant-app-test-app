@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <app name="TestAntApp" namespace="PHPAnt\Apps">
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/.git</name>
+    <name>/home/michael/php/php-ant/includes/apps/ant-app-test-app/.git</name>
     <hash>da39a3ee5e6b4b0d3255bfef95601890afd80709</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/LICENSE</name>
+    <name>/home/michael/php/php-ant/includes/apps/ant-app-test-app/LICENSE</name>
     <hash>4c80553b587d05130abb4998a445245c97e2dce8</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/public.key</name>
-    <hash>b1b5b50708b51a66d39e8e9a0f39c280bfdc4341</hash>
+    <name>/home/michael/php/php-ant/includes/apps/ant-app-test-app/public.key</name>
+    <hash>394f8444b5b4a8e313ef68124d832feda2ee14d2</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/tests</name>
+    <name>/home/michael/php/php-ant/includes/apps/ant-app-test-app/tests</name>
     <hash>da39a3ee5e6b4b0d3255bfef95601890afd80709</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/README.md</name>
+    <name>/home/michael/php/php-ant/includes/apps/ant-app-test-app/README.md</name>
     <hash>6c358c96da2d9ee585d4e47d6b5e5570eceae3d1</hash>
   </file>
   <file>
-    <name>/home/timing/www/includes/apps/ant-app-test-app/app.php</name>
-    <hash>23c23fa1b530750adec60edc64268278bc665194</hash>
+    <name>/home/michael/php/php-ant/includes/apps/ant-app-test-app/app.php</name>
+    <hash>ab2463b011efb8a0e2439631ef02e939c9e834ae</hash>
   </file>
   <action>
     <hook>cli-load-grammar</hook>

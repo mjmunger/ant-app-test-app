@@ -51,7 +51,7 @@ class TestAntApp extends \PHPAnt\Core\AntApp implements \PHPAnt\Core\AppInterfac
         $this->hasACL = true;
     }
 
-    function getMenuItems() {
+    function getMenuItems($args) {
         $Menu = [ 'Foo'   => [ 'Bar' => '/path/to/bar'
                              , 'Baz' => '/path/to/baz'
                              ]
@@ -63,6 +63,13 @@ class TestAntApp extends \PHPAnt\Core\AntApp implements \PHPAnt\Core\AppInterfac
                 ];
 
         return $Menu;
+    }
+
+    function getProtectedActionsList() {
+        return [ 'cli-load-grammar'  => "Load CLI Grammar"
+               , 'app-hook-test'     => "App Hook Test"
+               , 'uploader-uri-test' => "Uploader URI Test"
+               ];
     }
 
     /**
